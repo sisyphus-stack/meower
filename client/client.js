@@ -31,7 +31,7 @@ form.addEventListener('submit', (event) => {
 
   if (name.trim() && content.trim()) {
     errorElement.style.display = 'none';
-    form.style.display = 'none';
+    //form.style.display = 'none';
     loadingElement.style.display = '';
 
     const mew = {
